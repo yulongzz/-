@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        list-style: none;
+    }
+    .header,.nav,.container,.footer{
+        float: left;
+        width:100%;
+        box-sizing: border-box;
+    }
+    .header{
+        background:  #de3737;
+        padding: 20px;
+        text-align: center;
+    }
+    .header p
+    .nav{
+        background: rgb(108, 240, 196);
+    }
+    .nav a{
+        color: #000000;
+        padding: 20px 50px;
+        display: inline-block;
+    }
+    .nav a:hover{
+        background: #bbb;
+        color:#fd5454 ;
+    }
+    .lside{
+        width: 200px;
+        float: right;
+    }
+    .rside{
+        width: 200px;
+        float: right;
+    }
+    .content{
+        margin: 0px 10px;
+    }
+    .container.rside.lside{
+        padding: 100px;
+        box-sizing: border-box;
+    }
+    .footer{
+        padding: 10px;
+        background: #ccc;
+        text-align: center;
+    }
+    @media screen and (max-width:700){
+        .lside.rside.container{
+            width: 100%;
+            margin: 0px;
+        }
+    }
+    .tupian{
+        padding: 20px 50px;
+        
+    }
+</style>
+</head>
+<body>
+<div class="main">
+    <div class="header">
+        <h1 >电影影评网</h1> 
+        <a href="http://www.cqsxedu.com/"><font size="5" color="blue">http://www.cqsxedu.com/</font>/</a>
+    </div>
+    <div class="nav">
+        <a href="">好评电影</a>
+        <a href="">热播电影</a>
+        <a href="">国产好剧</a>
+        <a href="">动漫资讯</a>
+        <a href="">纪录片</a>
+        <a href="">国产动漫</a>
+    </div>
+    <div class="container">
+        <div class="lside">
+            <h2>电影影评网</h2>
+            <p>除了影评和推荐外，我们还提供电影资讯、
+                明星花边和影迷互动等多种内容，让您在
+                浏览网站的同时，尽情享受电影带来的乐
+                趣。无论您是想了解最新上映的电影，还
+                是寻找经典老片的回顾，我们都能满足您
+                的需求。感谢您的光临，希望我们的网站
+                能为您带来更多电影乐趣！</p>
+        </div>
+        <div class="rside">
+            <h2>电影影评网</h2>
+            <p>我们的网站涵盖各种类型的电影，
+                无论您是喜欢动作片、喜剧片、
+                爱情片还是科幻片，我们都会为
+                您奉上最新的影片推荐和独家影
+                评。我们不仅关注好莱坞大片，
+                还会介绍各国优秀的影片，让您
+                在电影世界里畅游无阻。</p>
+        </div>
+        <div class="content">
+            <h2>电影影评网</h2>
+            <p>欢迎来到我们的电影影评网站！
+                在这里，我们致力于为您提供
+                最新、最全面的电影资讯和影
+                评内容。我们的团队由一群热
+                爱电影的影评人和资深影迷组
+                成，他们会为您带来权威、专
+                业的影评和观影指南。</p>
+        </div>
+        <div class="tupian">
+            <a href="https://www.bilibili.com/video/BV1oZ4y1q7bk?t=71.7"><img src="https://tse3-mm.cn.bing.net/th/id/OIP-C.Id31hDQaBIThMjtieemx5AHaKX?rs=1&pid=ImgDetMain"width="200" height="250"></img>
+            <a href="https://www.bilibili.com/video/BV1eb411E7Z2?t=8.1"><img src="https://img.zcool.cn/community/0164ce5bf57cbda80121ab5d6f87b6.jpg@1280w_1l_2o_100sh.jpg"width="200" height="250"></img>
+            <a href="https://www.bilibili.com/video/BV16T4y1B7Qv?t=61.8"><img src="https://img.zcool.cn/community/0129405bf57cbda801209252eb66c0.jpg@2o.jpg"width="200" height="250"></img>
+            <a href="https://v.qq.com/x/page/o08531n5b6u.html?url_from=share"><img src="https://img.zcool.cn/community/010c3259802d63a8012156034f0295.jpg@1280w_1l_2o_100sh.jpg"width="200" height="250"></img>
+        </div>
+    </div>
+    <div class="footer">
+        <a href=""><p>热播电影</p>
+        <p>好评电影</p>
+    </div>
+</div>
+</body>
+</html>
